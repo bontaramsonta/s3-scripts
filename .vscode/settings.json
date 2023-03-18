@@ -1,0 +1,4 @@
+{
+    "dotenv.enableAutocloaking": true,
+    "editor.formatOnSave": true
+}
