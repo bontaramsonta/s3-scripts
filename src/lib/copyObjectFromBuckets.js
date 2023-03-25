@@ -5,7 +5,7 @@ import {
 } from '@aws-sdk/client-s3'
 
 async function copyObjectFromBuckets(sourceBucketName, destinationBucketName) {
-    const SOURCE_REGION = 'us-east-1'
+    const SOURCE_REGION = 'ap-south-1'
     const SOURCE_BUCKET = sourceBucketName
 
     const DESTINATION_REGION = 'ap-south-1'
